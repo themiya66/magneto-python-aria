@@ -9,5 +9,7 @@ data*
 *.json
 *.pickle
 authorized_chats.txt
+admins.txt
+owners.txt
 log.txt
 accounts/*
