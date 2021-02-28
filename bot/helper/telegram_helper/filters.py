@@ -30,7 +30,7 @@ class CustomFilters:
 
     owners = _Owners()
 
-   class _Admins(BaseFilter):
+    class _Admins(BaseFilter):
         def filter(self, message):
             id = message.from_user.id
             return bool(id in ADMINS)
